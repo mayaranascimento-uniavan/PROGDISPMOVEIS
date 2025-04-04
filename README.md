@@ -1,16 +1,47 @@
-## 📱 Este projeto foi desenvolvido com Apache Cordova e pode ser executado diretamente em um dispositivo Android real.
+# 📱 Calculadora de Juros - Aplicativo Cordova
 
-> ⚠️ **Importante:** Não utilizamos emulador. A aplicação é testada diretamente no celular via conexão USB, o que facilita a visualização do funcionamento em tempo real, incluindo o uso de funcionalidades nativas como alertas.
+Este é um aplicativo híbrido desenvolvido com **Apache Cordova** que calcula **juros simples** e **juros compostos**. 
 
-Após copiar os arquivos HTML para a pasta `www/` do projeto Cordova, basta executar o comando de build e rodar no dispositivo para ver o app funcionando.
+## 🎯 Funcionalidades
 
-🧩 Explicação:
-A interface foi construída com HTML e estilizada com Bootstrap 5.
+- Cálculo de **juros simples**
+- Cálculo de **juros compostos**
+- Interface limpa e responsiva com **Bootstrap**
+- Alerta nativo com `navigator.notification.alert` (recurso do Cordova)
 
-O script cordova.js é incluído para possibilitar o uso de recursos nativos no app.
+---
 
-O layout é centralizado com flexbox e usa uma div.container para agrupar os elementos.
+## 🧱 Tecnologias Utilizadas
 
-Os campos de entrada permitem que o usuário insira os dados necessários: capital, taxa de juros e tempo.
+- [Apache Cordova](https://cordova.apache.org/)
+- HTML5, CSS3, JavaScript
+- Bootstrap 5
+- Plugins nativos do Cordova (ex: dialogs)
 
-Um botão aciona a função calcularJuros() e o resultado aparece abaixo do botão, dentro da tag <h3>.
+---
+
+## 🗂️ Estrutura do Projeto
+
+
+> ⚠️ **Nota**: O arquivo `cordova.js` **não aparece no repositório** pois é **injetado automaticamente** quando você roda o aplicativo em um dispositivo/emulador com `cordova build` ou `cordova run`. Portanto, ele não precisa ser incluído manualmente no projeto.
+
+---
+
+## ▶️ Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js instalado
+- Apache Cordova instalado globalmente:
+  ```bash
+  npm install -g cordova
+
+👨‍💻 Autor: Mayara Cristina
+
+
+
+
+
+
+
+
